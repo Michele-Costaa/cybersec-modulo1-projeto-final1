@@ -1,0 +1,54 @@
+# Nmap 7.95 scan initiated Mon Jul 28 23:37:12 2025 as: /usr/lib/nmap/nmap -sS -sV -O -Pn -oN /home/analyst/recon/infra_net/scan.txt 10.10.50.0/24
+Nmap scan report for 10.10.50.1
+Host is up (0.0012s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE VERSION
+111/tcp open  rpcbind 2-4 (RPC #100000)
+MAC Address: 3E:24:41:0E:05:33 (Unknown)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+
+Nmap scan report for laptop-vastro.projeto_final_opcao_1_guest_net (10.10.50.2)
+Host is up (0.0013s latency).
+All 1000 scanned ports on laptop-vastro.projeto_final_opcao_1_guest_net (10.10.50.2) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0E:7B:F2:65:4A:47 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for laptop-luiz.projeto_final_opcao_1_guest_net (10.10.50.3)
+Host is up (0.00049s latency).
+All 1000 scanned ports on laptop-luiz.projeto_final_opcao_1_guest_net (10.10.50.3) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 6A:2B:C9:46:ED:04 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for macbook-aline.projeto_final_opcao_1_guest_net (10.10.50.4)
+Host is up (0.00059s latency).
+All 1000 scanned ports on macbook-aline.projeto_final_opcao_1_guest_net (10.10.50.4) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 26:11:A4:31:23:C7 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for notebook-carlos.projeto_final_opcao_1_guest_net (10.10.50.5)
+Host is up (0.00056s latency).
+All 1000 scanned ports on notebook-carlos.projeto_final_opcao_1_guest_net (10.10.50.5) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 9E:8A:EA:5A:29:9E (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for ced1128c6b0d (10.10.50.6)
+Host is up (0.00100s latency).
+All 1000 scanned ports on ced1128c6b0d (10.10.50.6) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 28 23:37:24 2025 -- 256 IP addresses (6 hosts up) scanned in 12.91 seconds
