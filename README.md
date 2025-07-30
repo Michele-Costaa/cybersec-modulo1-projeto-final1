@@ -57,4 +57,3 @@ A análise revelou a exposição de serviços como `rpcbind`, ausência de firew
 ### Autor
 
 - **Michele Costa**
-[Relatório Técnico.pdf](https://github.com/user-attachments/files/21518466/Relatorio.Tecnico.pdf)
